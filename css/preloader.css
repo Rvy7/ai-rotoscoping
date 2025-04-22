@@ -43,7 +43,7 @@
     width: 16px;
     height: 16px;
     display: block;
-    background: #a097f0;
+    background: #ff001e;
     box-shadow: 2px 2px 8px rgba(140, 111, 240, 0.09);
     border-radius: 50%;
     transform: rotate(90deg);
@@ -111,7 +111,7 @@
     position: absolute;
     width: 16px;
     height: 16px;
-    background: #a097f0;
+    background: #ff001e;
     box-shadow: 2px 2px 8px rgba(140, 111, 240, 0.09);
     border-radius: 50%;
     -webkit-animation: moveSvg 6.9s linear infinite;
@@ -161,10 +161,10 @@
         offset-distance: 0%;
     }
     25% {
-        background: #6786FC;
+        background: #ff001e;
     }
     75% {
-        background: #23C4F8;
+        background: #ff001e;
     }
     100% {
         offset-distance: 100%;
@@ -176,10 +176,10 @@
         offset-distance: 0%;
     }
     25% {
-        background: #6786FC;
+        background: #ff001e;
     }
     75% {
-        background: #23C4F8;
+        background: #ff001e;
     }
     100% {
         offset-distance: 100%;
@@ -214,10 +214,10 @@
         left: -8px;
     }
     25% {
-        background: #6786FC;
+        background: #ff001e;
     }
     75% {
-        background: #23C4F8;
+        background: #ff001e;
     }
     50.0001%,
     100% {
@@ -232,10 +232,10 @@
         left: -8px;
     }
     25% {
-        background: #6786FC;
+        background: #ff001e;
     }
     75% {
-        background: #23C4F8;
+        background: #ff001e;
     }
     50.0001%,
     100% {

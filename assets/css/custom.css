@@ -209,14 +209,14 @@ body {
 }
 
 #landing .left .box-welcome {
-    border-left: 4px solid #0066d4;
+    border-left: 4px solid #ff001e;
     padding-left: .8rem;
     margin-bottom: .5rem
 }
 
 #landing .left .box-welcome span {
-    background: #0066d4;
-    background: linear-gradient(90deg, #0066d4 0%, rgb(0, 149, 255) 15%, #ebebeb 56%, #f5f1ea 100%);
+    background: #ff001e;
+    background: linear-gradient(90deg, #ff001e 0%, rgb(0, 149, 255) 15%, #ebebeb 56%, #f5f1ea 100%);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -259,14 +259,14 @@ body {
     text-decoration: none;
     font-size: .95rem;
     border-radius: 5px;
-    background-color: #0066d4;
-    border: 1px solid #0066d4;
+    background-color: #ff001e;
+    border: 1px solid #ff001e;
     transition: box-shadow .3s ease, background-color .3s ease;
     border-radius: 5px
 }
 
 #landing .left .button:hover {
-    box-shadow: 0px 0px 50px #0066d4;
+    box-shadow: 0px 0px 50px #ff001e;
 }
 
 .arrow {
@@ -922,7 +922,7 @@ body {
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     margin-bottom: 30px;
-    box-shadow: 0px 0px 9px 0px #0066d4;
+    box-shadow: 0px 0px 9px 0px #ff001e;
 }
 
 #services .services-item1:hover {
@@ -965,7 +965,7 @@ body {
 }
 
 .red {
-    color: #0066d4;
+    color: #ff001e;
     padding: 0 5px;
 }
 

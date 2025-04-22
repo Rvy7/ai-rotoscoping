@@ -65,7 +65,7 @@ body {
     --secondry-border: #262525;
     --darker-border: #171717;
     --color: #fff;
-    --accent: #300acb;
+    --accent: #ff001e;
     --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --red-box-shadow: 0 4px 8px 0 rgba(194, 18, 18, 0.075), 0 6px 20px 0 rgba(194, 16, 16, 0.082);
 }
@@ -129,7 +129,7 @@ main {
 .brand h1 {
     font-size: 36px;
     margin: 0;
-    background: linear-gradient(to right, #B19CD9, #FFFFFF);
+    background: linear-gradient(to right, #ff001e, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -345,7 +345,7 @@ header .links {
     width: fit-content;
     padding: 12px 25px;
     border-radius: 15px;
-    background: #300acb;
+    background: #ff001e;
     color: var(--text);
     box-shadow: var(--red-box-shadow);
     text-decoration: none;

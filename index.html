@@ -560,3 +560,117 @@
 </script>
 
 </body>
+
+<style>
+  .botao-lateral {
+    position: fixed;
+    right: 0;
+    background-color: #ff001e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 9999;
+  }
+
+  #btn-musica {
+    top: 40%;
+  }
+
+  #btn-drop {
+    top: 50%;
+  }
+
+  #formularioDrop {
+    display: none;
+    position: fixed;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: 2px solid #ff001e;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    z-index: 9999;
+  }
+</style>
+
+
+<!-- Botão: Tocar Música -->
+<button id="btn-musica" class="botao-lateral" onclick="tocarMusica()">Tocar Música</button>
+
+<!-- Botão: Pedir Drop -->
+<button id="btn-drop" class="botao-lateral" onclick="mostrarFormulario()">Pedir Cheat</button>
+
+<!-- Formulário: Pedir Drop -->
+<div id="formularioDrop">
+  <form onsubmit="enviarDrop(event)">
+    <label for="mensagem">O que você quer pedir?</label><br>
+    <textarea id="mensagem" required placeholder="Digite seu pedido..." rows="4" style="width: 100%; margin-top: 5px;"></textarea><br><br>
+    <button type="submit" style="
+      background-color: #ff001e;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;">Enviar</button>
+  </form>
+</div>
+
+<!-- YouTube player invisível -->
+<div style="display: none;">
+  <iframe id="musica-frame" width="0" height="0"
+    src=""
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<!-- Scripts -->
+<script>
+  // Substitua essa URL pela sua webhook real
+  const webhookURL = "https://discord.com/api/webhooks/1365037104953954399/NnmGd7peLaD5C-KiLNQYx3YShfPlEhggc4gy1ucyGoFAVVrloyH0Xcd9-MV3UQ3O69ev";
+
+  function tocarMusica() {
+    const iframe = document.getElementById('musica-frame');
+    iframe.src = "https://www.youtube.com/embed/M0VIG_7l7qU?autoplay=1&loop=1&playlist=M0VIG_7l7qU";
+       iframe.src = "https://www.youtube.com/embed/M0VIG_7l7qU?autoplay=1&loop=1&playlist=M0VIG_7l7qU";
+  }
+
+  function mostrarFormulario() {
+    const form = document.getElementById('formularioDrop');
+    form.style.display = form.style.display === 'none' ? 'block' : 'none';
+  }
+
+  function enviarDrop(event) {
+    event.preventDefault();
+    const mensagem = document.getElementById('mensagem').value;
+
+    fetch(webhookURL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        content: `👀**Pedidos de Cheats**:\n${mensagem}`
+      })
+    })
+    .then(() => {
+      alert("Pedido enviado com sucesso!");
+      document.getElementById('mensagem').value = "";
+      document.getElementById('formularioDrop').style.display = 'none';
+    })
+    .catch((err) => {
+      alert("Erro ao enviar pedido.");
+      console.error(err);
+    });
+  }
+</script>
+
+</script>
+
+  </script>
+</body>
+</html>

